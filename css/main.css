@@ -16,9 +16,11 @@ body {
     margin: 0 auto;
 }
 
+/* header */
+
 header {
     background: #050e2b;
-    width: 100%
+    width: 100%;
 }
 
 #header-wrapper {
@@ -26,6 +28,7 @@ header {
 }
 
 #logo img {
+    max-width: 300px;
     width: 100%;
     height: auto;
 }
@@ -37,12 +40,35 @@ header {
     background-color: #fdf7eb;
 }
 
+#container::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*content*/
+
+.content {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+@media all and (min-width: 950px){
+    .content{
+        float: left;
+        width: 60%
+    }
+}
+
+/*icons*/
+
 .icons {
     width: 100%
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 li{
@@ -52,6 +78,8 @@ li{
     width: 80px;
     height: 4em;
 }
+
+/* colors */
 
 .colors {
     width: 100%;
@@ -84,11 +112,32 @@ li{
     background-color: #e1bc87;
 }
 
+@media all and (min-width: 950px){
+    .colors{
+        float: left;
+        width: 50%;
+    }
+}
+
+/* visuals */
+
 #pictures img {
-    width: 100%
+    width: 100%;
 }
 
 #textures {
     margin: 0 auto;
     text-align: center;
+}
+
+@media all and (min-width: 950px){
+    #pictures{
+        float: right;
+        width: calc(100% / 3 *2);
+    }
+}
+@media all and (min-width: 950px){
+    #colors{
+        float: left;
+        width: calc(100%/3);
 }
