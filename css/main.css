@@ -139,8 +139,8 @@ li{
     border-radius: 10px;
 }
 
-.secondary {
-    text-align: center;
+.primary :hover {
+    border-radius: 90px;
 }
 
 .colors .dark_navy {
@@ -153,6 +153,14 @@ li{
 
 .colors .mustard {
     background-color: #946b2d;
+}
+
+.secondary {
+    text-align: center;
+}
+
+.secondary :hover {
+    border-radius: 90px;
 }
 
 .colors .navy {
