@@ -21,6 +21,12 @@ body {
 header {
     background: #050e2b;
     width: 100%;
+    text-align: center;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
 }
 
 #header-wrapper {
@@ -56,7 +62,25 @@ header {
 @media all and (min-width: 950px){
     .content{
         float: left;
+        width: 50%;
+        padding-right: 30px;
+    }
+
+    .icons {
+        float: left;
         width: 60%
+    }
+
+    .colors {
+        padding-top: 50px;
+    }
+
+    .secondary {
+        text-align: center;
+    }
+
+    #textures {
+        float: left;
     }
 }
 
@@ -64,6 +88,13 @@ header {
 
 .icons {
     width: 100%
+}
+
+.icons li {
+    display: inline-block;;
+    text-align: center;
+    width: 96px;
+    opacity: 0.5;
 }
 
 ul {
@@ -90,6 +121,7 @@ li{
     width: 32%;
     list-style-type: none;
     background-color: black;
+    border-radius: 10px;
 }
 
 .colors .dark_navy {
@@ -106,6 +138,7 @@ li{
 
 .colors .navy {
     background-color: #222f5b;
+    padding-right: 50px;
 }
 
 .colors .tan {
@@ -130,10 +163,15 @@ li{
     text-align: center;
 }
 
+#textures img {
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
 @media all and (min-width: 950px){
     #pictures{
         float: right;
-        width: calc(100% / 3 *2);
+        width: calc(100% / 3.5 *2);
     }
 }
 @media all and (min-width: 950px){
