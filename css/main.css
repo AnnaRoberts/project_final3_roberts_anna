@@ -22,11 +22,18 @@ header {
     background: #050e2b;
     width: 100%;
     text-align: center;
+    padding-top: 100px;
 }
 
 h1 {
     padding: 0;
     margin: 0;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-left: 15px;
 }
 
 #header-wrapper {
@@ -37,6 +44,7 @@ h1 {
     max-width: 300px;
     width: 100%;
     height: auto;
+    margin-top: -70px;
 }
 
 #container {
@@ -44,6 +52,7 @@ h1 {
     margin: 0 auto;
     padding: 10px;
     background-color: #fdf7eb;
+    margin-top: -60px;
 }
 
 #container::after {
@@ -68,7 +77,7 @@ h1 {
 
     .icons {
         float: left;
-        width: 60%
+        width: 90%
     }
 
     .colors {
@@ -124,6 +133,10 @@ li{
     border-radius: 10px;
 }
 
+.secondary {
+    text-align: center;
+}
+
 .colors .dark_navy {
     background-color: #050e2b;
 }
@@ -138,7 +151,6 @@ li{
 
 .colors .navy {
     background-color: #222f5b;
-    padding-right: 50px;
 }
 
 .colors .tan {
@@ -168,11 +180,36 @@ li{
     padding-left: 10px;
 }
 
+#secondary_logo {
+    width: 100%;
+}
+
+
+@media all and (min-width: 650px){
+
+    #secondary_logo {
+        width: 60%;
+        float: left;
+}
+
 @media all and (min-width: 950px){
     #pictures{
         float: right;
         width: calc(100% / 3.5 *2);
     }
+
+    #textures {
+        float: left;
+        width: calc (100%/3);
+        width: 30%;
+    }
+
+    #secondary_logo {
+        width: 30%;
+        float: left;
+}
+
+
 }
 @media all and (min-width: 950px){
     #colors{
