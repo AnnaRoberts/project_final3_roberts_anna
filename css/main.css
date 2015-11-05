@@ -68,7 +68,7 @@ h2 {
     text-align: justify;
 }
 
-@media all and (min-width: 950px){
+@media all and (min-width: 1090px){
     .content{
         float: left;
         width: 50%;
@@ -129,7 +129,6 @@ li{
 
 .colors {
     width: 100%;
-    padding-bottom: 6% ;
 }
 
 .colors li {
@@ -171,7 +170,7 @@ li{
     background-color: #e1bc87;
 }
 
-@media all and (min-width: 950px){
+@media all and (min-width: 1090px){
     .colors{
         float: left;
         width: 50%;
@@ -182,6 +181,11 @@ li{
 
 #pictures img {
     width: 100%;
+}
+
+#interior {
+    max-width: 325px;
+    margin: 0 auto;
 }
 
 #textures {
@@ -196,6 +200,7 @@ li{
 
 #secondary_logo {
     width: 100%;
+    max-width: 250px;
 }
 
 
@@ -206,16 +211,19 @@ li{
         float: left;
 }
 
-@media all and (min-width: 950px){
-    #pictures{
-        float: right;
+@media all and (min-width: 1090px){
+    #food{
         width: calc(100% / 3.5 *2);
+        float: right;
+    }
+    #interior{
+        float: left;
+        width: calc (100%/3.5);
     }
 
     #textures {
         float: left;
         width: calc (100%/3);
-        width: 30%;
     }
 
     #secondary_logo {
@@ -225,7 +233,7 @@ li{
 
 
 }
-@media all and (min-width: 950px){
+@media all and (min-width: 1090px){
     #colors{
         float: left;
         width: calc(100%/3);
