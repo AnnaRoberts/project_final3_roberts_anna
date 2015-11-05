@@ -34,6 +34,26 @@ h1 {
 h2 {
     padding-top: 40px;
     padding-left: 15px;
+    font-family: 'Almendra SC', serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Meddon', cursive;
+    font-size: 1.2em;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-family: garamond;
+    font-size: 1em;
+    text-align: justify;
+    margin-top: -20px;
 }
 
 #header-wrapper {
@@ -65,10 +85,14 @@ h2 {
 
 .content {
     margin: 0 auto;
-    text-align: justify;
 }
 
 @media all and (min-width: 1090px){
+
+    h2{
+        font-size: 3em;
+    }
+
     .content{
         float: left;
         width: 50%;
@@ -174,6 +198,7 @@ li{
     .colors{
         float: left;
         width: 50%;
+        margin-top:75px;
     }
 }
 
@@ -185,6 +210,10 @@ li{
     border-radius: 20px;
 }
 
+#pictures img:hover {
+    box-shadow: 0 0 20px;
+}
+
 #interior {
     max-width: 325px;
     margin: 0 auto;
@@ -193,6 +222,10 @@ li{
 #textures {
     margin: 0 auto;
     text-align: center;
+}
+
+#textures img:hover {
+    opacity: 0.5;
 }
 
 #textures img {
@@ -206,6 +239,11 @@ li{
     padding: 10px;
     margin: 0 auto;
 }
+
+#secondary_logo:hover {
+    opacity: 0.5;
+}
+
 
 
 @media all and (min-width: 650px){
