@@ -103,6 +103,12 @@ h2 {
     display: inline-block;;
     text-align: center;
     width: 96px;
+    opacity: 0.9;
+}
+
+.icons li :hover {
+    display: inline-block;;
+    text-align: center;
     opacity: 0.5;
 }
 
