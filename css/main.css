@@ -72,6 +72,16 @@ p {
     box-shadow: 7px 11px 11px #776d64;
 }
 
+/*
+
+@media screen and (min-width: 487px) {
+    #logo {
+       h1: url(../img/secondary_logo.jpg);
+    }
+}
+*/
+
+
 #container {
     width: 80%;
     margin: 0 auto;
