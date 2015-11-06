@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background: url(../img/Brick_texture.jpg);
+    background: url(../img/Brick_texture.png);
 }
 
 *,
@@ -274,36 +274,46 @@ li{
 
 
 
-@media all and (min-width: 650px){
-
+@media all and (min-width: 650px) {
     #secondary_logo {
         width: 60%;
+    }
 }
 
-@media all and (min-width: 1090px){
-    #food{
-        width: calc(100% / 3.5 *2);
+@media all and (min-width: 1090px) {
+    #food {
+        width: calc(100% / 3.5 * 2);
         float: right;
     }
-    #interior{
-        float: left;
-        width: calc (100%/3.5);
-    }
+}
 
-    #textures {
-        float: left;
-        width: calc (100%/3);
-    }
 
+@media all and (min-width: 1090px) {
     #secondary_logo {
         width: 30%;
         float: left;
+    }
+}
+
+@media all and (min-width: 1090px) {
+    #interior{
+        float: left;
+        width: calc (100% / 3.5);
+    }
+}
+
+@media all and (min-width: 1090px) {
+    #textures {
+        float: left;
+        width: calc (100% / 3);
+    }
 }
 
 
-}
+
 @media all and (min-width: 1090px){
     #colors{
         float: left;
-        width: calc(100%/3);
+        width: calc(100% / 3);
+    }
 }
