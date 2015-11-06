@@ -1,7 +1,8 @@
 html {
     box-sizing: border-box;
-    background: url(../img/brick.png);
+    background: url(../img/Brick_texture.png);
 }
+
 *,
 *:before,
 *:after {
@@ -36,11 +37,13 @@ h2 {
     padding-left: 15px;
     font-family: 'Almendra SC', serif;
     font-size: 2em;
+    color: #050e2b;
 }
 
 h3 {
     font-family: 'Meddon', cursive;
     font-size: 1.2em;
+    color: #946b2d;
 }
 
 h4 {
@@ -54,6 +57,7 @@ p {
     font-size: 1em;
     text-align: justify;
     margin-top: -20px;
+    color: #222f5b;
 }
 
 #header-wrapper {
@@ -64,7 +68,8 @@ p {
     max-width: 300px;
     width: 100%;
     height: auto;
-    margin-top: -70px;
+    margin-top: -90px;
+    box-shadow: 10px 8px 10px;
 }
 
 #container {
