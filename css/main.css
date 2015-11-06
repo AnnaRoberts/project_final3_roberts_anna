@@ -60,6 +60,18 @@ p {
     color: #222f5b;
 }
 
+p a {
+    font-family: garamond;
+    color: #946b2d;
+    text-decoration: none;
+}
+
+p a:hover {
+    font-family: 'Meddon', cursive;
+    color: #946b2d;
+    text-decoration: underline;
+}
+
 #header-wrapper {
     margin: 0 auto;
 }
@@ -72,7 +84,8 @@ p {
     box-shadow: 7px 11px 11px #776d64;
 }
 
-/*
+/* could not get the media query to successfully change to a smaller logo. I wanted to leave it in the
+code so you coudl see what I did.
 
 @media screen and (min-width: 487px) {
     #logo {
@@ -265,7 +278,6 @@ li{
 
     #secondary_logo {
         width: 60%;
-        float: left;
 }
 
 @media all and (min-width: 1090px){
