@@ -178,6 +178,33 @@ li{
     height: 4em;
 }
 
+.beer {
+    background: #e1be87;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.beer li{
+    font-family: 'Almendra SC', serif;
+    display: inherit;
+    width: 400px;
+    text-align: left;
+    height: 2em;
+}
+
+.beer p {
+    padding-left: 115px;
+    font-style: italic;
+}
+
+.beer :hover {
+    opacity: 0.5;
+}
+
+
 /* colors */
 
 .colors {
