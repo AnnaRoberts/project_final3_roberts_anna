@@ -176,55 +176,18 @@ li{
 }
 
 /* colors */
-
 .colors {
-    width: 100%;
-}
-
-.colors li {
-    width: 32%;
-    list-style-type: none;
-    background-color: black;
-    border-radius: 10px;
+    text-align: center;
 }
 
 .primary :hover {
     border-radius: 90px;
 }
 
-.colors .dark_navy {
-    background-color: #050e2b;
-}
-
-.colors .grey {
-    background-color: #776d64;
-}
-
-.colors .mustard {
-    background-color: #946b2d;
-}
-
-.secondary {
-    text-align: center;
-}
-
-.secondary :hover {
-    border-radius: 90px;
-}
-
-.colors .navy {
-    background-color: #222f5b;
-}
-
-.colors .tan {
-    background-color: #e1bc87;
-}
-
 @media all and (min-width: 1090px){
     .colors{
-        float: left;
-        width: 50%;
-        margin-top:75px;
+        float: right;
+        margin-top:-1210px;
     }
 }
 
