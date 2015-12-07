@@ -133,7 +133,6 @@ header {
     }
 
     .icons {
-        float: left;
         width: 90%
     }
 }
@@ -194,7 +193,7 @@ header {
 @media all and (min-width: 1000px){
     .social-media{
         float: right;
-        margin-top: -20px;
+        margin-top: -52px;
         padding: 0;
     }
 }
@@ -309,6 +308,12 @@ header {
     opacity: 0.5;
 }
 
+@media all and (min-width: 400px) {
+    #secondary_logo {
+        margin: auto;
+    }
+}
+
 @media all and (min-width: 650px) {
     #secondary_logo {
         width: 60%;
@@ -321,6 +326,7 @@ header {
         float: left;
     }
 }
+
 
 /* Food Menu */
 
@@ -387,7 +393,7 @@ header {
 }
 
 #profile {
-    padding-top: 50px;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -426,5 +432,36 @@ header {
     .content h3{
         text-align: center;
 
+    }
+}
+
+/*lodging page */
+
+
+
+#lodging-content {
+    max-width: 500px;
+}
+
+@media all and (min-width: 1000px) {
+    #book-now img {
+        width: 200px;
+        float: right;
+        margin-right: 150px;
+        margin-top: -200px;
+        padding: 10px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #book-now img {
+        width: 200px;
+        float: right;
+    }
+}
+
+@media all and (min-width: 400px) {
+    #book-now img {
+        width: 200px;
     }
 }
