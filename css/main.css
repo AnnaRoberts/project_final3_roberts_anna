@@ -68,9 +68,9 @@ p a {
 }
 
 p a:hover {
-    font-family: 'Meddon', cursive;
     color: #946b2d;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 #header-wrapper {
