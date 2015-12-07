@@ -176,7 +176,7 @@ li{
 }
 
 /* colors */
-.colors {
+.primary {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -186,9 +186,21 @@ li{
 }
 
 @media all and (min-width: 1000px){
-    .colors{
+    .primary{
         float: right;
-        margin-top:-1210px;
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 600px){
+    .primary{
+        margin-top: 50px;
+    }
+}
+
+@media all and (min-width: 400px){
+    .primary{
+        margin-top: 50px;
     }
 }
 /* events */
