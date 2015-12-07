@@ -177,23 +177,23 @@ li{
     height: 4em;
 }
 
-/* colors */
-.primary {
+/* social media */
+.social-media {
     text-align: center;
     padding-bottom: 20px;
     opacity: 0.8;
 }
 
-.primary img {
+.social-media img {
     width: 50px;
 }
 
-.primary :hover {
+.social-media :hover {
     border-radius: 90px;
 }
 
 @media all and (min-width: 1000px){
-    .primary{
+    .social-media{
         float: right;
         margin-top: -20px;
         padding: 0;
@@ -201,13 +201,13 @@ li{
 }
 
 @media all and (min-width: 600px){
-    .primary{
+    .social-media{
         padding-top: 50px;
     }
 }
 
 @media all and (min-width: 400px){
-    .primary{
+    .social-media{
         padding-top: 50px;
     }
 }
