@@ -27,9 +27,11 @@ h2 {
     padding-top: 40px;
     padding-left: 15px;
     font-family: 'Almendra SC', serif;
-    font-size: 2em;
+    font-size: 3em;
     color: #050e2b;
     text-decoration: none;
+    max-width: 500px;
+    height: 55px;
 }
 
 h3 {
@@ -124,10 +126,6 @@ header {
 
 @media all and (min-width: 1090px){
 
-    h2 {
-        font-size: 3em;
-    }
-
     .content {
         float: left;
         width: 50%;
@@ -137,6 +135,12 @@ header {
     .icons {
         float: left;
         width: 90%
+    }
+}
+
+@media all and (max-width: 600px){
+    h2 {
+        font-size: 2em;
     }
 }
 
@@ -387,7 +391,7 @@ header {
 #profile img {
     border-radius: 50px;
     padding: 10px;
-    width: 220px;
+    width: 200px;
 }
 
 #profile img:hover {
@@ -396,12 +400,8 @@ header {
 
 @media all and (min-width: 1090px) {
     #beer2 {
-        width: calc(100% / 3.5 * 2);
+        width: calc(100% / 3.5 * 1.9);
         float: right;
         margin-top: -350px;
-    }
-
-    #profile {
-        padding-top: 125px;
     }
 }
