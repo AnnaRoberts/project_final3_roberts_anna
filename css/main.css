@@ -124,7 +124,7 @@ header {
     margin: 0 auto;
 }
 
-@media all and (min-width: 1090px){
+@media all and (min-width: 1000px){
 
     .content {
         float: left;
@@ -249,7 +249,7 @@ header {
     opacity: 0.8;
 }
 
-@media all and (min-width: 1090px) {
+@media all and (min-width: 1000px) {
     #events {
         float: left;
         width: calc (100% / 3);
@@ -273,7 +273,7 @@ header {
     margin: 0 auto;
 }
 
-@media all and (min-width: 1090px) {
+@media all and (min-width: 1000px) {
     #interior{
         float: left;
         width: calc (100% / 3.5);
@@ -315,7 +315,7 @@ header {
     }
 }
 
-@media all and (min-width: 1090px) {
+@media all and (min-width: 1000px) {
     #secondary_logo {
         width: 30%;
         float: left;
@@ -351,7 +351,7 @@ header {
     font-size: 2.2em;
 }
 
-@media all and (min-width: 1090px) {
+@media all and (min-width: 1000px) {
     #food {
         width: calc(100% / 3.5 * 2);
         float: left;
@@ -394,17 +394,37 @@ header {
 #profile img {
     border-radius: 50px;
     padding: 10px;
-    width: 200px;
+    width: 185px;
 }
 
 #profile img:hover {
     opacity: 0.5;
 }
 
-@media all and (min-width: 1090px) {
+@media all and (min-width: 1000px) {
     #beer2 {
         width: calc(100% / 3.5 * 2.2);
         float: right;
         margin-top: -350px;
+    }
+
+    .beer {
+        float: left;
+    }
+
+    .content h3{
+        text-align: left;
+    }
+
+}
+
+@media all and (min-width: 400px) {
+    .beer {
+        margin: auto;
+    }
+
+    .content h3{
+        text-align: center;
+
     }
 }
