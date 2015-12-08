@@ -329,8 +329,30 @@ header {
 
 
 /* Food Menu */
+.accordion{
+    max-width: 600px;
+}
 
-.menu li {
+.accordion h1 {
+    padding: 0;
+    margin: auto;
+    float: none;
+    font-family: 'Almendra SC', serif;
+    font-size: 1.5em;
+}
+
+.accordion h4 {
+    padding: 0;
+    margin: auto;
+    text-align: left;
+    font-family: 'Almendra SC', serif;
+    font-size: 1em;
+}
+
+.accordion p {
+    text-align: left;
+}
+/*.menu li {
     display: list-item;
     width: 100%;
     padding: 0px;
@@ -362,7 +384,7 @@ header {
         width: calc(100% / 3.5 * 2);
         float: left;
     }
-}
+} */
 
 /* Beer List */
 
