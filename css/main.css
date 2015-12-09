@@ -163,7 +163,7 @@ header {
     display: inline-block;;
     text-align: center;
     width: 75px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .icons li :hover {
@@ -176,7 +176,9 @@ header {
     float: right;
     display: inline-block;
     width: 100px;
+    opacity: 0.8;
 }
+
 #icons-home img {
     width: 100px;
     margin-top: -150px;
@@ -287,9 +289,13 @@ header {
     margin: auto;
 }
 
+#food-specials img {
+    max-width: 432px;
+}
+
 @media all and (min-width: 1000px) {
-    #food {
-        width: calc(100% / 3.5 * 2);
+    #food-specials img{
+        width: calc(100% / 2);
         float: right;
 }
 
@@ -507,7 +513,7 @@ header {
 }
 
 #slides {
-    width: 800px;
+    width: 80%;
     padding: 10px;
 }
 
@@ -525,29 +531,4 @@ header {
     margin:auto;
 }
 
-figure {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-figcaption{
-  position: absolute;
-  background: rgba(0,0,0,0.75);
-  color: blue;
-  padding: 10px 20px;
-}
-
-
-figure:hover {
-  display: block;
-  position: relative;
-}
-
-figcaption:hover {
-  position: absolute;
-  background: rgba(0,0,0,0.75);
-  color: blue;
-  padding: 10px 20px;
-}
 
