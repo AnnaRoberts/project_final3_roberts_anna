@@ -24,14 +24,13 @@ h1 {
 }
 
 h2 {
-    padding-top: 40px;
     padding-left: 15px;
     font-family: 'Almendra SC', serif;
     font-size: 3em;
     color: #050e2b;
     text-decoration: none;
     max-width: 500px;
-    height: 55px;
+    margin: 0;
 }
 
 h3 {
@@ -173,6 +172,16 @@ header {
     opacity: 0.5;
 }
 
+#icons-home {
+    float: right;
+    display: inline-block;
+    width: 100px;
+}
+#icons-home img {
+    width: 100px;
+    margin-top: -150px;
+}
+
 /* social media icons */
 
 .social-media {
@@ -216,7 +225,7 @@ header {
 #events {
     padding: 8px;
     max-width:400px;
-    max-height: 400px;
+    max-height: 300px;
     text-align: center;
     overflow: scroll;
     border-radius: 50px;
@@ -250,8 +259,9 @@ header {
 
 @media all and (min-width: 1000px) {
     #events {
-        float: left;
+        float: right;
         width: calc (100% / 3);
+        margin: 20px;
     }
 }
 
@@ -485,8 +495,32 @@ header {
 }
 
 @media all and (min-width: 1000px) {
-    #interior{
+    #history{
         float: left;
-        width: calc (100% / 3.5);
+        width: calc(100% / 2);
+        padding: 10px;
     }
+
+    #events{
+        float: right;
+    }
+}
+
+#slides {
+    width: 800px;
+    padding: 10px;
+}
+
+.contact-info {
+    padding-left: 30px;
+}
+
+#slides-beer {
+    float: right;
+    width: 400px;
+}
+
+#slides-dining {
+    width: 800px;
+    margin:auto;
 }
