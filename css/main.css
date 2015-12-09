@@ -524,3 +524,30 @@ header {
     width: 800px;
     margin:auto;
 }
+
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption{
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: blue;
+  padding: 10px 20px;
+}
+
+
+figure:hover {
+  display: block;
+  position: relative;
+}
+
+figcaption:hover {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: blue;
+  padding: 10px 20px;
+}
+
