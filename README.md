@@ -9,8 +9,8 @@
 	* This plug in is a responsive slideshow that is dislpayed on the home page, beer list page, and dining menu page. Each slide show has 4 photos related to the page it is on. 
 * [ Accordion Menu] (http://www.jqueryrain.com/?dQ14N6cI)
 	* This plug in allows to have an accordion menu drop down. I used this for my menus. Since I had four menus I did not want to display all four because it would be too busy, so this worked great! It is on my Dining page. 
-* [Letting Effects] (https://github.com/davatron5000/Lettering.js) 
-	*This plug allowed for each letter to display a diffent color as you hover over it. It allowed for a great magical effect to my site, since it IS a magical world! You can view the 'Book Now' letter plug in on the Lodging page.  	 	
+* [Lettering Effects] (https://github.com/davatron5000/Lettering.js) 
+	* This plug allowed for each letter to display a diffent color as you hover over it. It allowed for a great magical effect to my site, since it IS a magical world! You can view the 'Book Now' letter plug in on the Lodging page.  	 	
 
 
 # Resources
