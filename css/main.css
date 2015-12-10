@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background: url(../img/Brick_texture.png);
+    background: url(../img/brick_texture.png);
 }
 
 *,
@@ -243,9 +243,9 @@ header {
 }
 
 #slides {
-    width: 800px;
-    padding: 10px;
-}
+    width: 100%;
+]
+
 
 /*end index page styling*/
 
