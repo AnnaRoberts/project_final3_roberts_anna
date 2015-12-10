@@ -33,3 +33,13 @@ $(function(){
 
 });
 
+$(document).ready(function() {
+
+    // just words move
+    //$(".fancy_title").lettering('words');
+
+    //just letters
+
+    $(".fancy_title").lettering();
+
+});

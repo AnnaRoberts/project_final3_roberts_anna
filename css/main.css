@@ -373,8 +373,11 @@ header {
 
 /*LODGING INFO PAGE */
 
-#lodging-content {
-    max-width: 500px;
+.fancy_title {
+    font-family:'Almendra SC', serif;
+    color: #050e2b;
+    text-align: center;
+    font-size: 4em;
 }
 
 @media all and (min-width: 1000px) {
@@ -424,6 +427,31 @@ header {
     #interior{
         float: left;
     }
+}
+
+.char2:hover  {
+    color: #e1be87;
+}
+.char3:hover {
+    color: #946b2d;
+}
+.char4:hover {
+    color: #222f5b;
+}
+.char5:hover {
+    color: #e1be87;
+}
+.char6:hover {
+    color: #946b2d;
+}
+.char7:hover {
+    color: #222f5b;
+}
+.char8:hover {
+    color: #e1be87;
+}
+.char9:hover {
+    color: #946b2d;
 }
 
 /* end LODGING menu styling */
