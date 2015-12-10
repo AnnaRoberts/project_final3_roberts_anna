@@ -189,6 +189,38 @@ header {
     }
 }
 
+/* secondary logo */
+
+#secondary_logo {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+#secondary_logo:hover {
+    opacity: 0.5;
+}
+
+@media all and (min-width: 400px) {
+    #secondary_logo {
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 650px) {
+    #secondary_logo {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #secondary_logo {
+        width: 30%;
+        float: left;
+    }
+}
+
     /*HOME PAGE*/
 
 /* events */
@@ -364,100 +396,9 @@ header {
     }
 }
 
+/* end dining menu styling */
 
-
-
-/* pictures */
-
-#pictures img {
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-#pictures img:hover {
-    box-shadow: 0 0 20px;
-}
-
-#interior {
-    max-width: 325px;
-    margin: 0 auto;
-}
-
-#food-menu {
-    max-width: 700px;
-    margin: auto;
-}
-
-@media all and (min-width: 1000px) {
-    #food {
-        width: calc(100% / 3.5 * 2);
-        float: right;
-    }
-}
-
-@media all and (min-width: 1000px) {
-    #interior{
-        float: left;
-        width: calc (100% / 3.5);
-    }
-}
-
-/* textures */
-
-#textures {
-    margin: 0 auto;
-    text-align: center;
-}
-
-#textures img:hover {
-    opacity: 0.5;
-}
-
-#textures img {
-    border-radius: 50px;
-    padding: 10px;
-}
-
-/* secondary logo */
-
-#secondary_logo {
-    width: 100%;
-    max-width: 200px;
-    padding: 10px;
-    margin-left: 50px;
-}
-
-#secondary_logo:hover {
-    opacity: 0.5;
-}
-
-@media all and (min-width: 400px) {
-    #secondary_logo {
-        margin: auto;
-    }
-}
-
-@media all and (min-width: 650px) {
-    #secondary_logo {
-        width: 60%;
-    }
-}
-
-@media all and (min-width: 1000px) {
-    #secondary_logo {
-        width: 30%;
-        float: left;
-    }
-}
-
-
-
-
-
-/*lodging page */
-
-
+/*LODGING INFO PAGE */
 
 #lodging-content {
     max-width: 500px;
@@ -503,15 +444,16 @@ header {
     margin: 0 auto;
 }
 
+@media all and (min-width: 1000px) {
+    #food {
+        width: calc(100% / 3.5 * 2);
+        float: right;
+    }
 
-
-
-
-.contact-info {
-    padding-left: 30px;
+    #interior{
+        float: left;
+    }
 }
 
-
-
-
+/* end LODGING menu styling */
 
