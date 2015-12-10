@@ -123,23 +123,9 @@ header {
     margin: 0 auto;
 }
 
-@media all and (min-width: 1000px){
-
-    .content {
-        float: left;
-        width: 50%;
-        padding-right: 30px;
-    }
-
-    .icons {
-        width: 90%
-    }
-}
-
 @media all and (max-width: 600px){
     h2 {
         font-size: 2em;
-        margin-top: -60px;
     }
 }
 
@@ -153,44 +139,26 @@ header {
     display: inline-block;
 }
 
-/*icons*/
+/* beer,menu and lodging icons*/
 
-.icons {
-    width: 100%
+.icons-home {
+    opacity: 0.8;
+    max-width: 400px;
 }
 
 .icons li {
-    display: inline-block;;
-    text-align: center;
     width: 75px;
     opacity: 0.8;
 }
 
 .icons li :hover {
-    display: inline-block;;
-    text-align: center;
     opacity: 0.5;
-}
-
-#icons-home {
-    float: right;
-    display: inline-block;
-    width: 100px;
-    opacity: 0.8;
-}
-
-#icons-home img {
-    width: 100px;
-    margin-top: -150px;
 }
 
 /* social media icons */
 
 .social-media {
-    text-align: center;
-    padding-bottom: 20px;
     opacity: 0.8;
-    height: 20px;
 }
 
 .social-media img {
@@ -205,22 +173,23 @@ header {
     .social-media{
         float: right;
         margin-top: -52px;
-        padding: 0;
     }
 }
 
 @media all and (min-width: 600px){
     .social-media{
         padding-top: 50px;
+        text-align: center;
     }
 }
 
 @media all and (min-width: 400px){
     .social-media{
         padding-top: 50px;
-        height: auto;
     }
 }
+
+    /*HOME PAGE*/
 
 /* events */
 
@@ -262,10 +231,18 @@ header {
 @media all and (min-width: 1000px) {
     #events {
         float: right;
-        width: calc (100% / 3);
+        width: calc(100% / 2);
         margin: 20px;
     }
+
+    #history{
+        float: left;
+        width: calc(100% / 2);
+        padding: 10px;
+    }
 }
+
+/*end index page styling*/
 
 /* pictures */
 
@@ -289,14 +266,11 @@ header {
     margin: auto;
 }
 
-#food-specials img {
-    max-width: 432px;
-}
-
 @media all and (min-width: 1000px) {
-    #food-specials img{
-        width: calc(100% / 2);
+    #food {
+        width: calc(100% / 3.5 * 2);
         float: right;
+    }
 }
 
 @media all and (min-width: 1000px) {
@@ -500,20 +474,10 @@ header {
     margin: 0 auto;
 }
 
-@media all and (min-width: 1000px) {
-    #history{
-        float: left;
-        width: calc(100% / 2);
-        padding: 10px;
-    }
 
-    #events{
-        float: right;
-    }
-}
 
 #slides {
-    width: 80%;
+    width: 800px;
     padding: 10px;
 }
 
