@@ -1,14 +1,26 @@
 # URL
-[Git Hub Link](https://github.com/AnnaRoberts/project_final2_roberts_anna.git)
+[Git Hub Link](https://github.com/AnnaRoberts/project_final3_roberts_anna.git)
 
 #Web Host 
-[ Web Host Link](http://www.dandeliondesigncompany.com/project_final2_roberts_anna/)
+[ Web Host Link](http://www.dandeliondesigncompany.com/project_final3_roberts_anna/index.html)
 
-* Images not working. Please see comments
+#jQuery Plugins
+* [ Slide Show](http://www.slidesjs.com/)
+	* This plug in is a responsive slideshow that is dislpayed on the home page, beer list page, and dining menu page. Each slide show has 4 photos related to the page it is on. 
+* [ Accordion Menu] (http://www.jqueryrain.com/?dQ14N6cI)
+	* This plug in allows to have an accordion menu drop down. I used this for my menus. Since I had four menus I did not want to display all four because it would be too busy, so this worked great! It is on my Dining page. 
+* [Letting Effects] (https://github.com/davatron5000/Lettering.js) 
+	*This plug allowed for each letter to display a diffent color as you hover over it. It allowed for a great magical effect to my site, since it IS a magical world! You can view the 'Book Now' letter plug in on the Lodging page.  	 	
+
 
 # Resources
-* [ Leaky Cauldron Info](https://www.pottermore.com/writing-by-jk-rowling/the-leaky-cauldron)
-* [Media query to change to secondar logo](http://stackoverflow.com/questions/21400065/swap-out-3-differently-sized-logos-with-media-queries)
 
-#Comments* Just to be clear I am NO Gryffindor hater ;) I just feel that I wanted to push the color scheme further than the obvious reds and golds.* I applied almost all the suggestions from class: adding a drop shadow, increasing the size of the bricks, I kept the script secondary font, because I agree with you I think it adds a nice Harry Potter feel to the site. * I attempted to add a media query and change the logo to a secondary, smaller logo for mobile viewers. I could not get it to work. I commented it out in my CSS (line 87) so you could take a look and see why it is not working. I think it is something with using the h1 element. * I emailed you on Friday at about 3pm about the images not working. I tried everything from changing the file type, resizing, moving into a different folder, reloading individually, and cannot figure out what is wrong. On my index everything is fine and there are no errors from dev tools or the W3 unicorn validator. I have not heard any feedback from you, and can not figure out what is wrong on my own. If you could please let me know I would be happy to fix it, but I am stumped. I have been using Cyber Duck for about a year now and have had zero issues. It is frustrating because it seems fine on my index, I truly hope this does not affect my grade as my index shows no errors and I don't know what  else to try. 
-* I look forward to the rest of your feedback! 
+* [Form Builder](https://form.jotform.com/annaroberts3/hotel-booking-form)
+* [Leaky Cauldron information] (https://www.pottermore.com/writing-by-jk-rowling/the-leaky-cauldron)
+* [Harry Potter Currency] (https://en.wikipedia.org/wiki/Fictional_universe_of_Harry_Potter#Economy)
+* [Leaky Cauldron Menu] (http://touringplans.com/universal-studios-florida/dining/leaky-cauldron/menus/lunch-and-dinner-menu)
+
+
+#Comments* Hope you don't mind me making Charlie Weasley a Brew Master, I figure he can do that part time with his dragon training. It DOES say on Pottermore he never was married, so I figured he needs another hobby. I think dragons go well with beer. * I know you said never to give a set height, but I broke the rule. I used it for my events so that there could be a scrolling effect. I wanted there to appear like there was always something going on so I wanted it to appear like a feed.* My slide show css doesn't work, obviously as there is practically no styling done. I'm not sure what to do because it is producing no errors on the dev tools or the unicorn validator. The slide show is working, so I was happy about that, but it does not look as great as it could. If you could look and see what I am doing wrong and let me know for future use that would be great. * My form I used a generator, hope that is okay. I did one on my own but could not do all the things I needed for a reservation system look. I used Jot Form and linked to it in my website as well as displayed it on the page. The javascript code says it is not working on the dev tools, but it works fine on the site. 
+* If you are a Harry Potter fan please read all the content I added, I had a TON of fun with it. I did a good amount of research on currency, events, room needs, food and beer appropriate items that I think would really be in the Leaky Cauldron. It was a lot of fun and i'm so happy I chose it!
+* I look forward to the rest of your feedback! Thanks so much for all the help throughout the semester, I truly appriecate it. Have a great break!!
