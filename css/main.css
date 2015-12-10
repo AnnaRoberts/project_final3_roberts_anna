@@ -242,7 +242,102 @@ header {
     }
 }
 
+#slides {
+    width: 800px;
+    padding: 10px;
+}
+
 /*end index page styling*/
+
+    /* BEER LIST PAGE */
+
+.beer {
+    background: #e1be87;
+    padding-left: 5px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.beer li{
+    font-family: 'Almendra SC', serif;
+    width: 400px;
+    text-align: left;
+    height: 2em;
+}
+
+.beer p {
+    padding-left: 115px;
+    font-style: italic;
+}
+
+.beer :hover {
+    opacity: 0.5;
+}
+
+.beer h3 {
+    text-align: center;
+}
+
+@media all and (min-width: 1000px) {
+    .beer {
+        float: left;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .beer {
+        margin: auto;
+    }
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    border-radius: 50px;
+    padding: 10px;
+    width: 185px;
+}
+
+#profile img:hover {
+    opacity: 0.5;
+}
+
+#slides-beer {
+    float: right;
+    width: 400px;
+}
+
+/*end beer page styling */
+
+/* FOOD MENU PAGE */
+
+.accordion{
+    max-width: 600px;
+}
+
+.accordion h1 {
+    padding: 0;
+    margin: auto;
+    float: none;
+    font-family: 'Almendra SC', serif;
+    font-size: 1.5em;
+}
+
+.accordion h4 {
+    padding: 0;
+    margin: auto;
+    text-align: left;
+    font-family: 'Almendra SC', serif;
+    font-size: 1em;
+}
+
+.accordion p {
+    text-align: left;
+}
+
+
 
 /* pictures */
 
@@ -329,102 +424,8 @@ header {
 }
 
 
-/* Food Menu */
 
-.accordion{
-    max-width: 600px;
-}
 
-.accordion h1 {
-    padding: 0;
-    margin: auto;
-    float: none;
-    font-family: 'Almendra SC', serif;
-    font-size: 1.5em;
-}
-
-.accordion h4 {
-    padding: 0;
-    margin: auto;
-    text-align: left;
-    font-family: 'Almendra SC', serif;
-    font-size: 1em;
-}
-
-.accordion p {
-    text-align: left;
-}
-
-/* Beer List */
-
-.beer {
-    background: #e1be87;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    width: 300px;
-    border-radius: 20px;
-}
-
-.beer li{
-    font-family: 'Almendra SC', serif;
-    display: inherit;
-    width: 400px;
-    text-align: left;
-    height: 2em;
-}
-
-.beer p {
-    padding-left: 115px;
-    font-style: italic;
-}
-
-.beer :hover {
-    opacity: 0.5;
-}
-
-#profile {
-    padding-top: 80px;
-    text-align: center;
-}
-
-#profile img {
-    border-radius: 50px;
-    padding: 10px;
-    width: 185px;
-}
-
-#profile img:hover {
-    opacity: 0.5;
-}
-
-@media all and (min-width: 1000px) {
-    #beer2 {
-        width: calc(100% / 3.5 * 2.2);
-        float: right;
-        margin-top: -350px;
-    }
-
-    .beer {
-        float: left;
-    }
-
-    .content h3{
-        text-align: left;
-    }
-
-}
-
-@media all and (min-width: 400px) {
-    .beer {
-        margin: auto;
-    }
-
-    .content h3{
-        text-align: center;
-
-    }
-}
 
 /*lodging page */
 
@@ -476,19 +477,13 @@ header {
 
 
 
-#slides {
-    width: 800px;
-    padding: 10px;
-}
+
 
 .contact-info {
     padding-left: 30px;
 }
 
-#slides-beer {
-    float: right;
-    width: 400px;
-}
+
 
 #slides-dining {
     width: 800px;
