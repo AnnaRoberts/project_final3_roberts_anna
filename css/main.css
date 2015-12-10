@@ -311,7 +311,7 @@ header {
 
 /*end beer page styling */
 
-/* FOOD MENU PAGE */
+/* DINING MENU PAGE */
 
 .accordion{
     max-width: 600px;
@@ -336,6 +336,34 @@ header {
 .accordion p {
     text-align: left;
 }
+
+#food-specials img {
+    max-width: 500px;
+    margin: auto;
+}
+
+#slides-dining {
+    width: 100%;
+}
+
+@media all and (min-width: 1000px) {
+   #food-specials img {
+        max-width: 382px;
+        float: right;
+    }
+
+    #slides-dining {
+        width: 800px;
+        margin:auto;
+    }
+}
+
+@media all and (min-width: 400px) {
+    #food-specials img {
+        width: 100%;
+    }
+}
+
 
 
 
@@ -485,9 +513,5 @@ header {
 
 
 
-#slides-dining {
-    width: 800px;
-    margin:auto;
-}
 
 
