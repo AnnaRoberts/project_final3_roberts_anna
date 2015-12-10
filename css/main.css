@@ -189,38 +189,6 @@ header {
     }
 }
 
-/* secondary logo */
-
-#secondary_logo {
-    width: 100%;
-    max-width: 200px;
-    padding: 10px;
-    margin-left: 50px;
-}
-
-#secondary_logo:hover {
-    opacity: 0.5;
-}
-
-@media all and (min-width: 400px) {
-    #secondary_logo {
-        margin: auto;
-    }
-}
-
-@media all and (min-width: 650px) {
-    #secondary_logo {
-        width: 60%;
-    }
-}
-
-@media all and (min-width: 1000px) {
-    #secondary_logo {
-        width: 30%;
-        float: left;
-    }
-}
-
     /*HOME PAGE*/
 
 /* events */
@@ -337,10 +305,15 @@ header {
 }
 
 #slides-beer {
-    float: right;
-    width: 400px;
+    width: 100%;
 }
 
+@media all and (min-width: 1000px) {
+    #slides-beer {
+        width: 600px;
+        margin:auto;
+    }
+}
 /*end beer page styling */
 
 /* DINING MENU PAGE */
@@ -426,8 +399,6 @@ header {
         width: 200px;
     }
 }
-
-/* pictures */
 
 #lodging-pictures img {
     width: 100%;
